@@ -12,8 +12,8 @@ function Exponencial(λ)
     return m[1]
 end
 include("ObjetosYFunciones_Uriel_Villanueva_Alcala.jl") 
-function Generacion(r, color,R,λ)
-    t = R^2/()
+function Generacion(r, color,R,λ,n)
+    t = exp(11.958211179)*n^(-0.318775)
     l1 = rand(0:360)
     y2 = [R*cos(l1*π/180), R*sin(l1*π/180)]
     τ = Exponencial(λ) * t
