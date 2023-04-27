@@ -11,7 +11,7 @@ function Exponencial(λ)
     m = - log.(u)./λ
     return m[1]
 end
-include("ObjetosYFunciones_Uriel_Villanueva_Alcala.jl") 
+include("ObjetosYFunciones_Uriel_Villanueva_Alcala.jl.4") 
 function Generacion(r, color,R,λ,n)
     t = exp(11.958211179)*n^(-0.318775)
     l1 = rand(0:360)
